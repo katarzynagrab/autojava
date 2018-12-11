@@ -1,6 +1,6 @@
-package kalkulator;
+package calculator;
 
-public class KalkulatorApp {
+public class calculatorApp {
     public int add(int x, int y) {
         return x + y;
     }
