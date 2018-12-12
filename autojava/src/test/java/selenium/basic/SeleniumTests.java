@@ -108,14 +108,17 @@ public class SeleniumTests {
 
         Assertions.assertEquals("Rafał", author.getText(), "Proper authot name is displayed");
         Assertions.assertEquals("http://markowicz.pro/author/rafal-markowicz/",
-            author.getAttribute("href"), "Valid author URL is displayed");
+                author.getAttribute("href"), "Valid author URL is displayed");
 
 
     }
+
+
     @AfterEach
     public void closeDriver() {
         driver.quit();
     }
+
 
 
 }

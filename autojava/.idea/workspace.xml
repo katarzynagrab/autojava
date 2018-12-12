@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c075dd1-3c4d-42fd-bb4d-041ba14a88d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
+    <list default="true" id="3c075dd1-3c4d-42fd-bb4d-041ba14a88d4" name="Default Changelist" comment="Selenium google i blog">
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,16 +36,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+            <state relative-caret-position="614">
+              <caret line="109" column="75" lean-forward="true" selection-start-line="109" selection-start-column="75" selection-end-line="109" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#canFindCodeSprintersOnGoogle2#0;class#SeleniumTests#0" />
                 <element signature="method#verifyAuthorOfBlogAboutTransformation#0;class#SeleniumTests#0" />
-                <element signature="e#4121#4122#0" expanded="true" />
+                <element signature="e#4127#4128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/test/java/calculator/calculatorAppTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java" />
       </list>
     </option>
   </component>
@@ -172,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612183000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544622672499" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep">
+  <component name="RunManager" selected="JUnit.WordpressTests.WordPressAddComment">
     <configuration name="SeleniumTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
@@ -212,22 +225,6 @@
       <option name="PACKAGE_NAME" value="selenium.basic" />
       <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
       <option name="METHOD_NAME" value="canFindCodeSprintersOnGoogle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="autojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.basic" />
-      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
-      <option name="METHOD_NAME" value="canFindCodeSprintersOnGoogle2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,13 +262,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordpressTests.WordPressAddComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.WordpressTests" />
+      <option name="METHOD_NAME" value="WordPressAddComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordpressTests.WordPressAddComment" />
         <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" />
         <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogAboutTransformation" />
         <item itemvalue="JUnit.SeleniumTests" />
         <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle" />
-        <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle2" />
       </list>
     </recent_temporary>
   </component>
@@ -307,39 +320,46 @@
       <option name="project" value="LOCAL" />
       <updated>1544539131268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Selenium google i blog">
+      <created>1544612400207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544612400207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 16m 15s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 13h 54m 16s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 16m 41s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 13h 58m 28s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 18m 14s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 05m 36s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 25m 20s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 10m 55s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 31m 16s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 18m 39s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 31m 35s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 20m 22s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 37m 44s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 22m 46s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 50m 48s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 23m 37s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 51m 36s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 27m 30s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogAboutTransformationStepByStep - 2018.12.12 at 11h 52m 30s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogAboutTransformationStepByStep" configurationId="JUnit" />
+    <history-entry file="WordpressTests_WordPressAddComment - 2018.12.12 at 14h 39m 18s.xml">
+      <configuration name="WordpressTests.WordPressAddComment" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -364,15 +384,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080514" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.663113" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39935064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6609808" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840087" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.336887" side_tool="true" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.33901918" side_tool="true" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49840087" weight="0.32792208" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4946695" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48773986" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,7 +445,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rename calculator class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename calculator class" />
+    <MESSAGE value="Selenium google i blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium google i blog" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/calculator/calculatorAppTest.java">
@@ -444,13 +465,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+        <state relative-caret-position="614">
+          <caret line="109" column="75" lean-forward="true" selection-start-line="109" selection-start-column="75" selection-end-line="109" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#canFindCodeSprintersOnGoogle2#0;class#SeleniumTests#0" />
             <element signature="method#verifyAuthorOfBlogAboutTransformation#0;class#SeleniumTests#0" />
-            <element signature="e#4121#4122#0" expanded="true" />
+            <element signature="e#4127#4128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
           </folding>
         </state>
       </provider>
