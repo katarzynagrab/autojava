@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c075dd1-3c4d-42fd-bb4d-041ba14a88d4" name="Default Changelist" comment="Selenium google i blog">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java" afterDir="false" />
+    <list default="true" id="3c075dd1-3c4d-42fd-bb4d-041ba14a88d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/WorPressTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
+            <state relative-caret-position="1683">
               <caret line="109" column="75" lean-forward="true" selection-start-line="109" selection-start-column="75" selection-end-line="109" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,15 +52,59 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/WorPressTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="306">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="71" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -83,6 +129,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/WordpressTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/WordPressPackage/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/WorPressTests.java" />
       </list>
     </option>
   </component>
@@ -93,9 +145,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="828" />
-    <option name="width" value="1092" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="578" />
+    <option name="width" value="1349" />
     <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -177,6 +229,24 @@
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="wordpresspackage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544622672499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544695046782" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -327,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544612400207</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selenium google i blog">
+      <created>1544624077424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544624077424</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -372,10 +449,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="578" y="0" width="1349" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.21411948" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,13 +461,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080514" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6609808" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6609775" visible="true" weight="0.31666666" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840087" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.33901918" side_tool="true" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3390225" side_tool="true" visible="true" weight="0.31666666" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49840087" weight="0.32792208" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48773986" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -463,9 +540,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
+        <state relative-caret-position="1683">
           <caret line="109" column="75" lean-forward="true" selection-start-line="109" selection-start-column="75" selection-end-line="109" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -475,14 +559,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/wordpresspackage/WorPressTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
